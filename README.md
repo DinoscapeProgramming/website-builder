@@ -41,3 +41,13 @@ build(
     ]
   ]
 )
+
+### Document Element Attributes
+```js
+build(
+  [] // code,
+  {
+    lang: "en"
+  } // attributes
+)
+```
