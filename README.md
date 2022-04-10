@@ -41,11 +41,42 @@ build(
     ]
   ]
 )
+```
 
 ### Document Element Attributes
 ```js
 build(
   [] // code,
+  {
+    lang: "en"
+  } // attributes
+)
+```
+
+### Final Example
+```js
+build(
+  [
+    [
+       "head", // tag name
+       {
+         childs: [
+           [
+             "title",
+             {
+               innerHTML: "Demo"
+             }
+           ]
+         ]
+       } // attributes or childs
+    ],
+    [
+      "body", // tag name
+      {
+        innerHTML: "Hello World!"
+      }
+    ]
+  ], // code
   {
     lang: "en"
   } // attributes
