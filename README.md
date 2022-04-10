@@ -8,3 +8,34 @@ First copy the file __website-builder.js__ and then add this script tag into you
 ```html
 <script src="website-builder"></script>
 ```
+
+## Use the engine
+
+### Function
+```js
+build()
+```
+
+### Head and Body Tags
+```js
+build(
+  [
+     "head", // tag name
+     {
+       childs: [
+         [
+           "title",
+           {
+             innerHTML: "Demo"
+           }
+         ]
+       ]
+     } // attributes or childs
+  ],
+  [
+    "body", // tag name
+    {
+      innerHTML: "Hello World!"
+    }
+  ]
+)
