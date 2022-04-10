@@ -82,3 +82,8 @@ build(
   } // attributes
 )
 ```
+
+## About
+
+### Developer
+The main developer of this project is Dinoscape. I saw some "programmers", which can't really code a website. I was thinking about a solution and here it is. You can use it with no credits in any kind, but I would be happy, when you do.
