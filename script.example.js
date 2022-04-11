@@ -1,7 +1,7 @@
 build(
   [
     [
-       "head", // tag name
+       "head",
        {
          childs: [
            [
@@ -11,16 +11,16 @@ build(
              }
            ]
          ]
-       } // attributes or childs
+       }
     ],
     [
-      "body", // tag name
+      "body",
       {
         innerHTML: "Hello World!"
       }
     ]
-  ], // code
+  ],
   {
     lang: "en"
-  } // attributes
+  }
 )
