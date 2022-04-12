@@ -83,6 +83,9 @@ build(
 )
 ```
 
+## Note
+If you don't need any attributes you still have to enter an empty object. When you don't need any attributes for the document element you also have to specify an empty object as second parameter.
+
 ## About
 
 ### Developer
